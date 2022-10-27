@@ -1,0 +1,40 @@
+[
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "DM Sans",
+          "fontStyle": "italic",
+          "fontWeight": 400
+        },
+        {
+          "fontFamily": "DM Sans",
+          "fontStyle": "italic",
+          "fontWeight": 500
+        },
+        {
+          "fontFamily": "DM Sans",
+          "fontStyle": "italic",
+          "fontWeight": 700
+        },
+        {
+          "fontFamily": "DM Sans",
+          "fontStyle": "normal",
+          "fontWeight": 400
+        },
+        {
+          "fontFamily": "DM Sans",
+          "fontStyle": "normal",
+          "fontWeight": 500
+        },
+        {
+          "fontFamily": "DM Sans",
+          "fontStyle": "normal",
+          "fontWeight": 700
+        }
+      ]
+    }
+  }
+]

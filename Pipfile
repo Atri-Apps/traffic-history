@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+atri = "*"
+fastapi = "==0.84.0"
+uvicorn = "*"
+jsonpickle = "*"
+python-multipart = "*"
+atri-utils = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
