@@ -1,0 +1,82 @@
+.p-Home.Flex1 {
+display: flex;
+background-color: #ececec;
+justify-content: center;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.p-Home.Flex2 {
+display: flex;
+padding-top: 150px;
+justify-content: center;
+column-gap: 50px;
+}
+.p-Home.Flex4 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 20px;
+}
+.p-Home.Flex5 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 20px;
+}
+.p-Home.Flex3 {
+display: flex;
+justify-content: center;
+column-gap: 50px;
+padding-top: 100px;
+}
+.p-Home.Flex6 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 20px;
+}
+.p-Home.Flex7 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 20px;
+}
+.p-Home.TextBox1 {
+font-family: DM Sans;
+font-weight: 700;
+font-size: 32px;
+}
+.p-Home.Visitors {
+width: ;
+}
+.p-Home.TextBox2 {
+font-family: DM Sans;
+font-weight: italic;
+font-size: 28px;
+}
+.p-Home.Cloners {
+;
+}
+.p-Home.TextBox3 {
+font-family: DM Sans;
+font-weight: 700;
+font-size: 28px;
+}
+.p-Home.Sites {
+height: 400px;
+width: 500px;
+}
+.p-Home.TextBox4 {
+font-family: DM Sans;
+font-weight: 700;
+font-size: 28px;
+}
+.p-Home.Content {
+height: 400px;
+width: 500px;
+}
+.p-Home.TextBox5 {
+font-family: DM Sans;
+font-weight: 700;
+font-size: 28px;
+}

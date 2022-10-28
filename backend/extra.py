@@ -2,7 +2,7 @@ import os
 from pymongo import MongoClient
 
 def get_data(collection_name):
-    db_url = os.environ.get('mongodb_url')
+    db_url = os.environ.get('DB_URI')
     client = MongoClient(db_url)
     db = client['gh-traffic']
     arr = []

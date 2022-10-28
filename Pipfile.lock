@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8f9d98de29501975494e2142be0b74af4323df07d854e49f5db78e1a945a44d5"
+            "sha256": "bd4073b96fae73c579c4f6b74aa69ad4e9787eaf4cfbdf71478e6265b3580ab3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -134,11 +134,11 @@
         },
         "atri": {
             "hashes": [
-                "sha256:a4c5982a24e4ba7dbda7f07fa726b2a789a0ec5788779878e6f46e9418ac7b17",
-                "sha256:b7ba4cde9c4bc0ca4db96ccbb9f9551fc2e599efb09af3a0dcd61155cd6b3aa3"
+                "sha256:44ba4401718cf9eb430d3921dd92d7e69ea7ff2e18462a9b68fcf8a763a151f9",
+                "sha256:61e0965ee6aca1d89af88d13deaaa54e501653522fd4f267e83e7d8730819f35"
             ],
             "index": "pypi",
-            "version": "==0.0.76"
+            "version": "==0.0.78"
         },
         "atri-utils": {
             "hashes": [
@@ -198,11 +198,11 @@
         },
         "exceptiongroup": {
             "hashes": [
-                "sha256:2e3c3fc1538a094aab74fad52d6c33fc94de3dfee3ee01f187c0e0c72aec5337",
-                "sha256:9086a4a21ef9b31c72181c77c040a074ba0889ee56a7b289ff0afb0d97655f96"
+                "sha256:2ac84b496be68464a2da60da518af3785fff8b7ec0d090a581604bc870bdee41",
+                "sha256:affbabf13fb6e98988c38d9c5650e701569fe3c1de3233cfb61c5f33774690ad"
             ],
             "markers": "python_version < '3.11'",
-            "version": "==1.0.0rc9"
+            "version": "==1.0.0"
         },
         "fastapi": {
             "hashes": [
@@ -571,9 +571,7 @@
             "version": "==1.10.2"
         },
         "pymongo": {
-            "extras": [
-                "srv"
-            ],
+            "extras": [],
             "hashes": [
                 "sha256:006799ddba1f2e73ce27689f016791ab80e51876c52ae2265d8c76016baaa10e",
                 "sha256:02140c1a9f2107a16c074c9e558a556faafb0dc3c2e9332c6685c5506823ab9d",
@@ -650,6 +648,7 @@
                 "sha256:f423e066de040f4f93dcac0e6ceec37ffc25cc591a609ecc3ab20adfdbb787ae",
                 "sha256:f84b8428a41d7d7f2931762c27b09ffa8b3bc51e3b5dab40ab2b1d008091247e"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.7'",
             "version": "==4.3.2"
         },

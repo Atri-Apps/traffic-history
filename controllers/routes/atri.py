@@ -1,7 +1,7 @@
 import json
 from typing import List, Any, Optional
 from fastapi import UploadFile
-default_state = json.loads('{"Flex1":{"styles":{"display":"","flexDirection":"row","alignItems":"stretch","justifyContent":"flex-start","flexWrap":"nowrap","alignContent":"stretch","rowGap":"","columnGap":"","alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"}},"Flex2":{"styles":{"display":"","flexDirection":"row","alignItems":"stretch","justifyContent":"flex-start","flexWrap":"nowrap","alignContent":"stretch","rowGap":"","columnGap":"","alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"}},"Flex3":{"styles":{"display":"","flexDirection":"row","alignItems":"stretch","justifyContent":"flex-start","flexWrap":"nowrap","alignContent":"stretch","rowGap":"","columnGap":"","alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"}},"TextBox1":{"styles":{"alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"},"custom":{"text":"Your text Here!"}},"LineChart1":{"styles":{"width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":""},"custom":{"cartesianGrid":{"show":false,"strokeDasharray":""},"data":[],"xAxis":{"show":false,"key":""},"yAxis":{"show":false},"toolTip":{"show":false},"legend":{"show":false},"options":{}}},"LineChart2":{"styles":{"width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":""},"custom":{"cartesianGrid":{"show":false,"strokeDasharray":""},"data":[],"xAxis":{"show":false,"key":""},"yAxis":{"show":false},"toolTip":{"show":false},"legend":{"show":false},"options":{}}},"Table1":{"styles":{"alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"},"custom":{"rows":[],"cols":[],"checkboxSelection":false,"autoHeight":false,"numRows":10,"rowHeight":20,"selection":[]}},"Table2":{"styles":{"alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"},"custom":{"rows":[],"cols":[],"checkboxSelection":false,"autoHeight":false,"numRows":10,"rowHeight":20,"selection":[]}}}')
+default_state = json.loads('{"Flex1":{"styles":{"display":"","flexDirection":"row","alignItems":"stretch","justifyContent":"flex-start","flexWrap":"nowrap","alignContent":"stretch","rowGap":"","columnGap":"","alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"}},"Flex2":{"styles":{"display":"","flexDirection":"row","alignItems":"stretch","justifyContent":"flex-start","flexWrap":"nowrap","alignContent":"stretch","rowGap":"","columnGap":"","alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"}},"Flex4":{"styles":{"display":"","flexDirection":"row","alignItems":"stretch","justifyContent":"flex-start","flexWrap":"nowrap","alignContent":"stretch","rowGap":"","columnGap":"","alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"}},"Flex5":{"styles":{"display":"","flexDirection":"row","alignItems":"stretch","justifyContent":"flex-start","flexWrap":"nowrap","alignContent":"stretch","rowGap":"","columnGap":"","alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"}},"Flex3":{"styles":{"display":"","flexDirection":"row","alignItems":"stretch","justifyContent":"flex-start","flexWrap":"nowrap","alignContent":"stretch","rowGap":"","columnGap":"","alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"}},"Flex6":{"styles":{"display":"","flexDirection":"row","alignItems":"stretch","justifyContent":"flex-start","flexWrap":"nowrap","alignContent":"stretch","rowGap":"","columnGap":"","alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"}},"Flex7":{"styles":{"display":"","flexDirection":"row","alignItems":"stretch","justifyContent":"flex-start","flexWrap":"nowrap","alignContent":"stretch","rowGap":"","columnGap":"","alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"}},"TextBox1":{"styles":{"alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"},"custom":{"text":"Your text Here!"}},"Visitors":{"styles":{"width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":""},"custom":{"cartesianGrid":{"show":false,"strokeDasharray":""},"data":[],"xAxis":{"show":false,"key":""},"yAxis":{"show":false},"toolTip":{"show":false},"legend":{"show":false},"options":{}}},"TextBox2":{"styles":{"alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"},"custom":{"text":"Your text Here!"}},"Cloners":{"styles":{"width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":""},"custom":{"cartesianGrid":{"show":false,"strokeDasharray":""},"data":[],"xAxis":{"show":false,"key":""},"yAxis":{"show":false},"toolTip":{"show":false},"legend":{"show":false},"options":{}}},"TextBox3":{"styles":{"alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"},"custom":{"text":"Your text Here!"}},"Sites":{"styles":{"alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"},"custom":{"rows":[],"cols":[],"checkboxSelection":false,"autoHeight":false,"numRows":10,"rowHeight":20,"selection":[]}},"TextBox4":{"styles":{"alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"},"custom":{"text":"Your text Here!"}},"Content":{"styles":{"alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"},"custom":{"rows":[],"cols":[],"checkboxSelection":false,"autoHeight":false,"numRows":10,"rowHeight":20,"selection":[]}},"TextBox5":{"styles":{"alignSelf":"","flexGrow":"","flexShrink":"","order":"","marginTop":"","marginBottom":"","marginRight":"","marginLeft":"","paddingTop":"","paddingBottom":"","paddingRight":"","paddingLeft":"","width":"","height":"","minWidth":"","minHeight":"","maxWidth":"","maxHeight":"","overflow":"","fontFamily":"","fontWeight":400,"fontSize":"","textAlign":"left","color":"","opacity":"","fontStyle":"","borderRadius":"","borderWidth":"","borderStyle":"","borderColor":"","backgroundImage":"","backgroundColor":"","backgroundClip":"","backgroundOrigin":"","backgroundAttachment":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","position":"static","float":"none","clear":"none","top":"","left":"","bottom":"","right":"","zIndex":"","outlineStyle":"","outlineColor":"","outlineOffset":"","outlineWidth":"","cursor":"","boxSizing":"content-box"},"custom":{"text":"Your text Here!"}}}')
 def get_defined_value(state, def_state, key):
 	return state[key] if key in state else def_state[key]
 class Atri:
@@ -12,12 +12,20 @@ class Atri:
 		self._setter_access_tracker = {}
 		self.Flex1 = state["Flex1"]
 		self.Flex2 = state["Flex2"]
+		self.Flex4 = state["Flex4"]
+		self.Flex5 = state["Flex5"]
 		self.Flex3 = state["Flex3"]
+		self.Flex6 = state["Flex6"]
+		self.Flex7 = state["Flex7"]
 		self.TextBox1 = state["TextBox1"]
-		self.LineChart1 = state["LineChart1"]
-		self.LineChart2 = state["LineChart2"]
-		self.Table1 = state["Table1"]
-		self.Table2 = state["Table2"]
+		self.Visitors = state["Visitors"]
+		self.TextBox2 = state["TextBox2"]
+		self.Cloners = state["Cloners"]
+		self.TextBox3 = state["TextBox3"]
+		self.Sites = state["Sites"]
+		self.TextBox4 = state["TextBox4"]
+		self.Content = state["Content"]
+		self.TextBox5 = state["TextBox5"]
 		self._setter_access_tracker = {}
 		self._getter_access_tracker = {}
 
@@ -48,6 +56,26 @@ class Atri:
 		self._Flex2 = Flex(new_state, default_state["Flex2"])
 
 	@property
+	def Flex4(self):
+		self._getter_access_tracker["Flex4"] = {}
+		return self._Flex4
+	@Flex4.setter
+	def Flex4(self, new_state):
+		self._setter_access_tracker["Flex4"] = {}
+		global default_state
+		self._Flex4 = Flex(new_state, default_state["Flex4"])
+
+	@property
+	def Flex5(self):
+		self._getter_access_tracker["Flex5"] = {}
+		return self._Flex5
+	@Flex5.setter
+	def Flex5(self, new_state):
+		self._setter_access_tracker["Flex5"] = {}
+		global default_state
+		self._Flex5 = Flex(new_state, default_state["Flex5"])
+
+	@property
 	def Flex3(self):
 		self._getter_access_tracker["Flex3"] = {}
 		return self._Flex3
@@ -56,6 +84,26 @@ class Atri:
 		self._setter_access_tracker["Flex3"] = {}
 		global default_state
 		self._Flex3 = Flex(new_state, default_state["Flex3"])
+
+	@property
+	def Flex6(self):
+		self._getter_access_tracker["Flex6"] = {}
+		return self._Flex6
+	@Flex6.setter
+	def Flex6(self, new_state):
+		self._setter_access_tracker["Flex6"] = {}
+		global default_state
+		self._Flex6 = Flex(new_state, default_state["Flex6"])
+
+	@property
+	def Flex7(self):
+		self._getter_access_tracker["Flex7"] = {}
+		return self._Flex7
+	@Flex7.setter
+	def Flex7(self, new_state):
+		self._setter_access_tracker["Flex7"] = {}
+		global default_state
+		self._Flex7 = Flex(new_state, default_state["Flex7"])
 
 	@property
 	def TextBox1(self):
@@ -68,55 +116,103 @@ class Atri:
 		self._TextBox1 = TextBox(new_state, default_state["TextBox1"])
 
 	@property
-	def LineChart1(self):
-		self._getter_access_tracker["LineChart1"] = {}
-		return self._LineChart1
-	@LineChart1.setter
-	def LineChart1(self, new_state):
-		self._setter_access_tracker["LineChart1"] = {}
+	def Visitors(self):
+		self._getter_access_tracker["Visitors"] = {}
+		return self._Visitors
+	@Visitors.setter
+	def Visitors(self, new_state):
+		self._setter_access_tracker["Visitors"] = {}
 		global default_state
-		self._LineChart1 = LineChart(new_state, default_state["LineChart1"])
+		self._Visitors = LineChart(new_state, default_state["Visitors"])
 
 	@property
-	def LineChart2(self):
-		self._getter_access_tracker["LineChart2"] = {}
-		return self._LineChart2
-	@LineChart2.setter
-	def LineChart2(self, new_state):
-		self._setter_access_tracker["LineChart2"] = {}
+	def TextBox2(self):
+		self._getter_access_tracker["TextBox2"] = {}
+		return self._TextBox2
+	@TextBox2.setter
+	def TextBox2(self, new_state):
+		self._setter_access_tracker["TextBox2"] = {}
 		global default_state
-		self._LineChart2 = LineChart(new_state, default_state["LineChart2"])
+		self._TextBox2 = TextBox(new_state, default_state["TextBox2"])
 
 	@property
-	def Table1(self):
-		self._getter_access_tracker["Table1"] = {}
-		return self._Table1
-	@Table1.setter
-	def Table1(self, new_state):
-		self._setter_access_tracker["Table1"] = {}
+	def Cloners(self):
+		self._getter_access_tracker["Cloners"] = {}
+		return self._Cloners
+	@Cloners.setter
+	def Cloners(self, new_state):
+		self._setter_access_tracker["Cloners"] = {}
 		global default_state
-		self._Table1 = Table(new_state, default_state["Table1"])
+		self._Cloners = LineChart(new_state, default_state["Cloners"])
 
 	@property
-	def Table2(self):
-		self._getter_access_tracker["Table2"] = {}
-		return self._Table2
-	@Table2.setter
-	def Table2(self, new_state):
-		self._setter_access_tracker["Table2"] = {}
+	def TextBox3(self):
+		self._getter_access_tracker["TextBox3"] = {}
+		return self._TextBox3
+	@TextBox3.setter
+	def TextBox3(self, new_state):
+		self._setter_access_tracker["TextBox3"] = {}
 		global default_state
-		self._Table2 = Table(new_state, default_state["Table2"])
+		self._TextBox3 = TextBox(new_state, default_state["TextBox3"])
+
+	@property
+	def Sites(self):
+		self._getter_access_tracker["Sites"] = {}
+		return self._Sites
+	@Sites.setter
+	def Sites(self, new_state):
+		self._setter_access_tracker["Sites"] = {}
+		global default_state
+		self._Sites = Table(new_state, default_state["Sites"])
+
+	@property
+	def TextBox4(self):
+		self._getter_access_tracker["TextBox4"] = {}
+		return self._TextBox4
+	@TextBox4.setter
+	def TextBox4(self, new_state):
+		self._setter_access_tracker["TextBox4"] = {}
+		global default_state
+		self._TextBox4 = TextBox(new_state, default_state["TextBox4"])
+
+	@property
+	def Content(self):
+		self._getter_access_tracker["Content"] = {}
+		return self._Content
+	@Content.setter
+	def Content(self, new_state):
+		self._setter_access_tracker["Content"] = {}
+		global default_state
+		self._Content = Table(new_state, default_state["Content"])
+
+	@property
+	def TextBox5(self):
+		self._getter_access_tracker["TextBox5"] = {}
+		return self._TextBox5
+	@TextBox5.setter
+	def TextBox5(self, new_state):
+		self._setter_access_tracker["TextBox5"] = {}
+		global default_state
+		self._TextBox5 = TextBox(new_state, default_state["TextBox5"])
 
 	def _to_json_fields(self):
 		return {
 			"Flex1": self._Flex1,
 			"Flex2": self._Flex2,
+			"Flex4": self._Flex4,
+			"Flex5": self._Flex5,
 			"Flex3": self._Flex3,
+			"Flex6": self._Flex6,
+			"Flex7": self._Flex7,
 			"TextBox1": self._TextBox1,
-			"LineChart1": self._LineChart1,
-			"LineChart2": self._LineChart2,
-			"Table1": self._Table1,
-			"Table2": self._Table2,
+			"Visitors": self._Visitors,
+			"TextBox2": self._TextBox2,
+			"Cloners": self._Cloners,
+			"TextBox3": self._TextBox3,
+			"Sites": self._Sites,
+			"TextBox4": self._TextBox4,
+			"Content": self._Content,
+			"TextBox5": self._TextBox5,
 			}
 
 
