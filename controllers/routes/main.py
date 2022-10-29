@@ -25,23 +25,23 @@ def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
     This function is called whenever a user loads this route in the browser.
     """
-    at.Table1.custom.cols = [
+    at.Sites.custom.cols = [
         {"field": "query date", "headerName": "Date"},
         {"field": "site", "headerName": "Website"},
         {"field": "views", "headerName": "Views", 'type': 'number'},
         {"field": "unique views", "headerName": "Unique Views", "type": "number"}
     ]
-    at.Table2.custom.cols = [
+    at.Content.custom.cols = [
         {"field": "query date", "headerName": "Date"},
         {"field": "content", "headerName": "Content"},
         {"field": "path", "headerName": "Path"},
         {"field": "views", "headerName": "Views", 'type': 'number'},
         {"field": "unique views", "headerName": "Unique Views", "type": "number"}
     ]
-    at.LineChart1.custom.data = get_data('visitors')
-    at.LineChart2.custom.data = get_data('clones')
-    at.Table1.custom.rows = get_data('sites')
-    at.Table2.custom.rows = get_data('content')
+    at.Visitors.custom.data = get_data('visitors')
+    at.Cloners.custom.data = get_data('clones')
+    at.Sites.custom.rows = get_data('sites')
+    at.Content.custom.rows = get_data('content')
     pass
 
 def handle_event(at: Atri, req: Request, res: Response):
