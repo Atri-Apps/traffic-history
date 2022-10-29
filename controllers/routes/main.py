@@ -3,7 +3,6 @@ from fastapi import Request, Response
 from atri_utils import *
 from pymongo import MongoClient
 import os
-# mongodb+srv://admin:admin@cluster0.d7lrzyw.mongodb.net/?retryWrites=true&w=majority
 from backend.extra import get_data
 
 #TODO :- Move get_data outside controllers - Done
