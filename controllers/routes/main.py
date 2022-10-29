@@ -3,7 +3,7 @@ from fastapi import Request, Response
 from atri_utils import *
 from pymongo import MongoClient
 import os
-from backend.extra import get_data
+from backend.db_adapters.db_map import db_map
 
 #TODO :- Move get_data outside controllers - Done
 #TODO :- Add Aditya's code to backend folder in root - Done
@@ -24,6 +24,9 @@ def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
     This function is called whenever a user loads this route in the browser.
     """
+    db_name = os.environ.get("DATABASE")
+    db_name = db_name.replace(" ", '').lower()
+    database = db_map[db_name]()
     at.Sites.custom.cols = [
         {"field": "query date", "headerName": "Date"},
         {"field": "site", "headerName": "Website"},
@@ -37,10 +40,10 @@ def handle_page_request(at: Atri, req: Request, res: Response, query: str):
         {"field": "views", "headerName": "Views", 'type': 'number'},
         {"field": "unique views", "headerName": "Unique Views", "type": "number"}
     ]
-    at.Visitors.custom.data = get_data('visitors')
-    at.Cloners.custom.data = get_data('clones')
-    at.Sites.custom.rows = get_data('sites')
-    at.Content.custom.rows = get_data('content')
+    at.Visitors.custom.data = database.get_data('visitors')
+    at.Cloners.custom.data = database.get_data('clones')
+    at.Sites.custom.rows = database.get_data('sites')
+    at.Content.custom.rows = database.get_data('content')
     pass
 
 def handle_event(at: Atri, req: Request, res: Response):
