@@ -3,8 +3,7 @@ from fastapi import Request, Response
 from atri_utils import *
 from pymongo import MongoClient
 import os
-# mongodb+srv://admin:admin@cluster0.d7lrzyw.mongodb.net/?retryWrites=true&w=majority
-from backend.extra import get_data
+from backend.db_adapters.db_map import db_map
 
 #TODO :- Move get_data outside controllers - Done
 #TODO :- Add Aditya's code to backend folder in root - Done
@@ -19,29 +18,35 @@ def init_state(at: Atri):
     The argument "at" is a dictionary that has initial values set from visual editor.
     Changing values in this dictionary will modify the intial state of the app.
     """
+    at.LineChart10.custom.data = database.get_data('visitors')
+    at.LineChart9.custom.data = database.get_data('clones')
+    at.Table6.custom.rows = database.get_data('sites')
     pass
 
 def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
     This function is called whenever a user loads this route in the browser.
     """
-    at.Table1.custom.cols = [
+    db_name = os.environ.get("DATABASE")
+    db_name = db_name.replace(" ", '').lower()
+    database = db_map[db_name]()
+    at.Sites.custom.cols = [
         {"field": "query date", "headerName": "Date"},
         {"field": "site", "headerName": "Website"},
         {"field": "views", "headerName": "Views", 'type': 'number'},
         {"field": "unique views", "headerName": "Unique Views", "type": "number"}
     ]
-    at.Table2.custom.cols = [
+    at.Content.custom.cols = [
         {"field": "query date", "headerName": "Date"},
         {"field": "content", "headerName": "Content"},
         {"field": "path", "headerName": "Path"},
         {"field": "views", "headerName": "Views", 'type': 'number'},
         {"field": "unique views", "headerName": "Unique Views", "type": "number"}
     ]
-    at.LineChart1.custom.data = get_data('visitors')
-    at.LineChart2.custom.data = get_data('clones')
-    at.Table1.custom.rows = get_data('sites')
-    at.Table2.custom.rows = get_data('content')
+    at.Visitors.custom.data = database.get_data('visitors')
+    at.Cloners.custom.data = database.get_data('clones')
+    at.Sites.custom.rows = database.get_data('sites')
+    at.Content.custom.rows = database.get_data('content')
     pass
 
 def handle_event(at: Atri, req: Request, res: Response):

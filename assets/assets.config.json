@@ -1,1 +1,29 @@
-{}
+{
+  "app_logo.svg": {
+    "mime": "image/svg+xml"
+  },
+  "github_navbar.png": {
+    "mime": "image/png"
+  },
+  "GitHub logo.png": {
+    "mime": "image/png"
+  },
+  "github_prig.png": {
+    "mime": "image/png"
+  },
+  "search_icon.png": {
+    "mime": "image/png"
+  },
+  "traffic.png": {
+    "mime": "image/png"
+  },
+  "workspace_logo.png": {
+    "mime": "image/png"
+  },
+  "Workspaces.svg": {
+    "mime": "image/svg+xml"
+  },
+  "traffic_slate50.png": {
+    "mime": "image/png"
+  }
+}

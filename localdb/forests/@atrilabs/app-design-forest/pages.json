@@ -2,5 +2,9 @@
   "home": {
     "name": "Home",
     "route": "/"
+  },
+  "113c1ced-2964-4ff1-80c4-c1d5e369e345": {
+    "name": "new",
+    "route": "/new"
   }
 }
