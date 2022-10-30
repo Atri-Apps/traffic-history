@@ -4,14 +4,8 @@ from atri_utils import *
 from pymongo import MongoClient
 import os
 from backend.db_adapters.db_map import db_map
+from backend.integrations.slack.api import get_users
 
-#TODO :- Move get_data outside controllers - Done
-#TODO :- Add Aditya's code to backend folder in root - Done
-#TODO :- Create integrations/github/api.py in backend - Done
-#TODO :- rename main to cron....py - Done
-#TODO :- cahnge acess to 754 and add !# USR/ - Done
-#TODO :- rEMOVE mongoDb from repo and use env var - Done
-#TODO :- List out all the env variables needed - Outsourced
 def init_state(at: Atri):
     """
     This function is called everytime "Publish" button is hit in the editor.

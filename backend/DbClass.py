@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 class DbClass(ABC):
 
     @abstractmethod
-    def get_database(self):
+    def get_client(self):
         pass
 
     @abstractmethod
@@ -26,5 +26,10 @@ class DbClass(ABC):
     @abstractmethod
     def push_data(self, visitors, clones, sites, content):
         pass
+
+    @abstractmethod
+    def get_data(self, collection_name):
+        pass
+
 
 

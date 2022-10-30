@@ -3,7 +3,9 @@ from ..DbClass import DbClass
 import os
 
 class MongoDb(DbClass):
-    def get_database(self):
+    def __init__(self):
+        self.client = self.get_client()
+    def get_client(self):
         db_url = os.environ.get("DB_URI")
         client = MongoClient(db_url)
         return client['gh-traffic']
@@ -21,14 +23,14 @@ class MongoDb(DbClass):
         db['content'].insert_one(dic)
 
     def push_data(self, visitors, clones, sites, content):
-        db = self.get_database()
+        db = self.client
         self.push_visitors(visitors, db)
         self.push_clones(clones, db)
         self.push_sites(sites, db)
         self.push_content(content, db)
 
     def get_data(self, collection_name):
-        db = self.get_database()
+        db = self.client
         arr = []
         if collection_name == 'visitors':
             collection = db[collection_name]

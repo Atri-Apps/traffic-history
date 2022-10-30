@@ -11,6 +11,8 @@ jsonpickle = "*"
 python-multipart = "*"
 atri-utils = "*"
 pymongo = "*"
+slack-sdk = "*"
+google-api-python-client = "*"
 
 [dev-packages]
 
