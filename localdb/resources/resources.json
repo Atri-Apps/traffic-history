@@ -92,5 +92,33 @@
         }
       ]
     }
+  },
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800&display=swap');\n",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "Barlow",
+          "fontStyle": "normal",
+          "fontWeight": 500
+        },
+        {
+          "fontFamily": "Barlow",
+          "fontStyle": "normal",
+          "fontWeight": 600
+        },
+        {
+          "fontFamily": "Barlow",
+          "fontStyle": "normal",
+          "fontWeight": 700
+        },
+        {
+          "fontFamily": "Barlow",
+          "fontStyle": "normal",
+          "fontWeight": 800
+        }
+      ]
+    }
   }
 ]

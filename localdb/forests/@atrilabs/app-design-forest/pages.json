@@ -6,5 +6,9 @@
   "113c1ced-2964-4ff1-80c4-c1d5e369e345": {
     "name": "new",
     "route": "/new"
+  },
+  "05e7ce3a-55f5-481b-9173-85b529fd9f7d": {
+    "name": "traction",
+    "route": "/traction"
   }
 }
