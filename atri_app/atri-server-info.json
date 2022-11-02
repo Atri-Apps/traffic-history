@@ -8,6 +8,9 @@
     },
     "/new": {
       "name": "new"
+    },
+    "/traction": {
+      "name": "traction"
     }
   },
   "publicUrlAssetMap": {

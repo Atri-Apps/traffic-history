@@ -690,6 +690,475 @@ const desktopModeProps = {
         ]
       }
     }
+  },
+  "traction": {
+    "Flex99": {
+      "callbacks": {}
+    },
+    "Flex97": {
+      "callbacks": {}
+    },
+    "Flex93": {
+      "callbacks": {}
+    },
+    "Flex89": {
+      "callbacks": {}
+    },
+    "Flex94": {
+      "callbacks": {}
+    },
+    "Flex90": {
+      "callbacks": {}
+    },
+    "Flex87": {
+      "callbacks": {}
+    },
+    "Flex84": {
+      "callbacks": {}
+    },
+    "Flex82": {
+      "callbacks": {}
+    },
+    "Flex85": {
+      "callbacks": {}
+    },
+    "Flex83": {
+      "callbacks": {}
+    },
+    "Flex104": {
+      "callbacks": {}
+    },
+    "Flex103": {
+      "callbacks": {}
+    },
+    "Flex116": {
+      "callbacks": {}
+    },
+    "Flex117": {
+      "callbacks": {}
+    },
+    "Flex118": {
+      "callbacks": {}
+    },
+    "Flex109": {
+      "callbacks": {}
+    },
+    "Flex107": {
+      "callbacks": {}
+    },
+    "Flex105": {
+      "callbacks": {}
+    },
+    "Flex108": {
+      "callbacks": {}
+    },
+    "Flex106": {
+      "callbacks": {}
+    },
+    "Flex98": {
+      "callbacks": {}
+    },
+    "Flex95": {
+      "callbacks": {}
+    },
+    "Flex96": {
+      "callbacks": {}
+    },
+    "Flex91": {
+      "callbacks": {}
+    },
+    "Flex92": {
+      "callbacks": {}
+    },
+    "Image21": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/github_prig.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image18": {
+      "custom": {
+        "alt": "search",
+        "src": "/app-assets/search_icon.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox61": {
+      "custom": {
+        "text": "Search"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox57": {
+      "custom": {
+        "text": "Source: https://pepy.tech/project/atri"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "LineChart11": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "Button17": {
+      "custom": {
+        "text": ""
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox55": {
+      "custom": {
+        "text": "⬇️  Downloads"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox58": {
+      "custom": {
+        "text": "Source: https://pepy.tech/project/atri"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "LineChart12": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "TextBox56": {
+      "custom": {
+        "text": "⭐  Stars"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button18": {
+      "custom": {
+        "text": ""
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image23": {
+      "custom": {
+        "alt": "icon"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox78": {
+      "custom": {
+        "text": "DOWNLOADS"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox73": {
+      "custom": {
+        "text": "12,937"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image24": {
+      "custom": {
+        "alt": "No preview available"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox71": {
+      "custom": {
+        "text": "Source: https://pepy.tech/project/atri"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "LineChart15": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "Button22": {
+      "custom": {
+        "text": ""
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox69": {
+      "custom": {
+        "text": "⬇️  Downloads"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox72": {
+      "custom": {
+        "text": "Source: https://pepy.tech/project/atri"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "LineChart16": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "TextBox70": {
+      "custom": {
+        "text": "⭐  Stars"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button23": {
+      "custom": {
+        "text": ""
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox64": {
+      "custom": {
+        "text": "Traction"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image22": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Workspaces.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image19": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/traffic_slate50.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox62": {
+      "custom": {
+        "text": "Repo traffic"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox63": {
+      "custom": {
+        "text": "Repo traffic"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image20": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/traffic_slate50.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    }
   }
 }};
 
