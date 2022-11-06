@@ -25,5 +25,11 @@
   },
   "traffic_slate50.png": {
     "mime": "image/png"
+  },
+  "downloads.png": {
+    "mime": "image/png"
+  },
+  "downloads_icon.png": {
+    "mime": "image/png"
   }
 }

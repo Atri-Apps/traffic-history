@@ -731,6 +731,9 @@ const desktopModeProps = {
     "Flex103": {
       "callbacks": {}
     },
+    "Flex120": {
+      "callbacks": {}
+    },
     "Flex116": {
       "callbacks": {}
     },
@@ -738,6 +741,12 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Flex118": {
+      "callbacks": {}
+    },
+    "Flex121": {
+      "callbacks": {}
+    },
+    "Flex119": {
       "callbacks": {}
     },
     "Flex109": {
@@ -922,18 +931,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image23": {
-      "custom": {
-        "alt": "icon"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox78": {
       "custom": {
         "text": "DOWNLOADS"
@@ -958,9 +955,22 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image24": {
+    "TextBox79": {
       "custom": {
-        "alt": "No preview available"
+        "text": "+ 10%"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image25": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/downloads_icon.png"
       },
       "callbacks": {
         "onClick": [
@@ -1158,6 +1168,40 @@ const desktopModeProps = {
           }
         ]
       }
+    }
+  },
+  "event_log": {
+    "Flex140": {
+      "callbacks": {}
+    },
+    "Flex139": {
+      "callbacks": {}
+    },
+    "Flex141": {
+      "callbacks": {}
+    },
+    "TextBox88": {
+      "custom": {
+        "text": "Event log"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Table8": {
+      "custom": {
+        "rows": [],
+        "cols": [],
+        "selection": []
+      },
+      "callbacks": {}
+    },
+    "Flex142": {
+      "callbacks": {}
     }
   }
 }};

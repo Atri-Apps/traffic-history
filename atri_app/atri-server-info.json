@@ -11,6 +11,9 @@
     },
     "/traction": {
       "name": "traction"
+    },
+    "/event_log": {
+      "name": "event_log"
     }
   },
   "publicUrlAssetMap": {

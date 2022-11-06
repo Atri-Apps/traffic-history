@@ -10,5 +10,9 @@
   "05e7ce3a-55f5-481b-9173-85b529fd9f7d": {
     "name": "traction",
     "route": "/traction"
+  },
+  "d46ee920-c7f6-4198-8e4e-9ba8466481e3": {
+    "name": "event_log",
+    "route": "/event_log"
   }
 }
