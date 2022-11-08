@@ -1,6 +1,7 @@
 from pymongo import MongoClient
-from ..DbClass import DbClass
+from DbClass import DbClass
 import os
+
 
 class MongoDb(DbClass):
     def __init__(self):
