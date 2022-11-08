@@ -8823,5 +8823,49 @@
       }
     },
     "id": "cd3b7af3-ca86-43ee-97ab-60660117b877"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontFamily": "Fira Sans"
+        }
+      }
+    },
+    "id": "faf4b95f-8dc5-49f5-b2aa-769342ed7426"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontWeight": 400
+        }
+      }
+    },
+    "id": "faf4b95f-8dc5-49f5-b2aa-769342ed7426"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "1px"
+        }
+      }
+    },
+    "id": "faf4b95f-8dc5-49f5-b2aa-769342ed7426"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "16px"
+        }
+      }
+    },
+    "id": "faf4b95f-8dc5-49f5-b2aa-769342ed7426"
   }
 ]

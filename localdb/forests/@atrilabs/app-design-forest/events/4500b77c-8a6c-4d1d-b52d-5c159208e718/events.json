@@ -10929,5 +10929,89 @@
       }
     },
     "id": "553b6493-6221-451a-b154-053f72d808d9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "columnGap": ""
+        }
+      }
+    },
+    "id": "4df23de2-12ed-4bff-b0c3-22632eeaa600"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "justifyContent": "space-between"
+        }
+      }
+    },
+    "id": "4df23de2-12ed-4bff-b0c3-22632eeaa600"
+  },
+  {
+    "type": "HARDPATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "4df23de2-12ed-4bff-b0c3-22632eeaa600",
+    "state": {
+      "property": {
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "columnGap": ""
+        }
+      },
+      "parent": {
+        "id": "56f6b53b-ee72-47ba-8fb0-416f87ab0c25",
+        "index": 0
+      }
+    }
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "columnGap": "10px"
+        }
+      }
+    },
+    "id": "4df23de2-12ed-4bff-b0c3-22632eeaa600"
+  },
+  {
+    "type": "HARDPATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "4df23de2-12ed-4bff-b0c3-22632eeaa600",
+    "state": {
+      "property": {
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "columnGap": ""
+        }
+      },
+      "parent": {
+        "id": "56f6b53b-ee72-47ba-8fb0-416f87ab0c25",
+        "index": 0
+      }
+    }
+  },
+  {
+    "type": "HARDPATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "4df23de2-12ed-4bff-b0c3-22632eeaa600",
+    "state": {
+      "property": {
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "columnGap": "10px"
+        }
+      },
+      "parent": {
+        "id": "56f6b53b-ee72-47ba-8fb0-416f87ab0c25",
+        "index": 0
+      }
+    }
   }
 ]
