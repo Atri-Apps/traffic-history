@@ -749,6 +749,48 @@ const desktopModeProps = {
     "Flex119": {
       "callbacks": {}
     },
+    "Flex149": {
+      "callbacks": {}
+    },
+    "Flex148": {
+      "callbacks": {}
+    },
+    "Flex146": {
+      "callbacks": {}
+    },
+    "Flex147": {
+      "callbacks": {}
+    },
+    "Flex145": {
+      "callbacks": {}
+    },
+    "Flex144": {
+      "callbacks": {}
+    },
+    "Flex143": {
+      "callbacks": {}
+    },
+    "Flex156": {
+      "callbacks": {}
+    },
+    "Flex155": {
+      "callbacks": {}
+    },
+    "Flex153": {
+      "callbacks": {}
+    },
+    "Flex152": {
+      "callbacks": {}
+    },
+    "Flex151": {
+      "callbacks": {}
+    },
+    "Flex150": {
+      "callbacks": {}
+    },
+    "Flex154": {
+      "callbacks": {}
+    },
     "Flex109": {
       "callbacks": {}
     },
@@ -762,6 +804,12 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Flex106": {
+      "callbacks": {}
+    },
+    "Flex158": {
+      "callbacks": {}
+    },
+    "Flex157": {
       "callbacks": {}
     },
     "Flex98": {
@@ -945,7 +993,7 @@ const desktopModeProps = {
     },
     "TextBox73": {
       "custom": {
-        "text": "12,937"
+        "text": "12.9K"
       },
       "callbacks": {
         "onClick": [
@@ -971,6 +1019,104 @@ const desktopModeProps = {
       "custom": {
         "alt": "downloads",
         "src": "/app-assets/downloads_icon.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image32": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/star.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox94": {
+      "custom": {
+        "text": "STARS"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox93": {
+      "custom": {
+        "text": "392"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox92": {
+      "custom": {
+        "text": "+ 10%"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox97": {
+      "custom": {
+        "text": "TRAFFIC"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox96": {
+      "custom": {
+        "text": "20K"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox95": {
+      "custom": {
+        "text": "+ 10%"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image33": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/traffic_icon.png"
       },
       "callbacks": {
         "onClick": [
@@ -1094,6 +1240,43 @@ const desktopModeProps = {
         ]
       }
     },
+    "Image34": {
+      "custom": {
+        "alt": "dropdown",
+        "src": "/app-assets/dropdown.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox98": {
+      "custom": {
+        "text": "Aug 31 - Oct 31 2022"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox99": {
+      "custom": {
+        "text": "Lifetime"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
     "TextBox64": {
       "custom": {
         "text": "Traction"
@@ -1180,6 +1363,9 @@ const desktopModeProps = {
     "Flex141": {
       "callbacks": {}
     },
+    "Flex142": {
+      "callbacks": {}
+    },
     "TextBox88": {
       "custom": {
         "text": "Event log"
@@ -1200,8 +1386,29 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex142": {
-      "callbacks": {}
+    "TextBox90": {
+      "custom": {
+        "text": "How to add a new event?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox91": {
+      "custom": {
+        "text": "Your text Here!"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     }
   }
 }};

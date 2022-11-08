@@ -31,5 +31,17 @@
   },
   "downloads_icon.png": {
     "mime": "image/png"
+  },
+  "stars_icon.png": {
+    "mime": "image/png"
+  },
+  "star.png": {
+    "mime": "image/png"
+  },
+  "traffic_icon.png": {
+    "mime": "image/png"
+  },
+  "dropdown.png": {
+    "mime": "image/png"
   }
 }

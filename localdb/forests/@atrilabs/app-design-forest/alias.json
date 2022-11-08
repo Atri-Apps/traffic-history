@@ -1,9 +1,9 @@
 {
-  "Flex": 142,
-  "TextBox": 91,
+  "Flex": 165,
+  "TextBox": 102,
   "LineChart": 16,
   "Table": 8,
-  "Image": 31,
+  "Image": 35,
   "Button": 24,
   "BarChart": 10
 }
