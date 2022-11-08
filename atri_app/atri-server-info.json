@@ -9,8 +9,8 @@
     "/new": {
       "name": "new"
     },
-    "/traction": {
-      "name": "traction"
+    "/project": {
+      "name": "project"
     },
     "/event_log": {
       "name": "event_log"
