@@ -691,7 +691,7 @@ const desktopModeProps = {
       }
     }
   },
-  "traction": {
+  "project": {
     "Flex99": {
       "callbacks": {}
     },
@@ -708,21 +708,6 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Flex90": {
-      "callbacks": {}
-    },
-    "Flex87": {
-      "callbacks": {}
-    },
-    "Flex84": {
-      "callbacks": {}
-    },
-    "Flex82": {
-      "callbacks": {}
-    },
-    "Flex85": {
-      "callbacks": {}
-    },
-    "Flex83": {
       "callbacks": {}
     },
     "Flex104": {
@@ -791,25 +776,67 @@ const desktopModeProps = {
     "Flex154": {
       "callbacks": {}
     },
-    "Flex109": {
-      "callbacks": {}
-    },
     "Flex107": {
       "callbacks": {}
     },
     "Flex105": {
       "callbacks": {}
     },
-    "Flex108": {
-      "callbacks": {}
-    },
-    "Flex106": {
-      "callbacks": {}
-    },
     "Flex158": {
       "callbacks": {}
     },
     "Flex157": {
+      "callbacks": {}
+    },
+    "Flex169": {
+      "callbacks": {}
+    },
+    "Flex170": {
+      "callbacks": {}
+    },
+    "Flex171": {
+      "callbacks": {}
+    },
+    "Flex173": {
+      "callbacks": {}
+    },
+    "Flex172": {
+      "callbacks": {}
+    },
+    "Flex175": {
+      "callbacks": {}
+    },
+    "Flex174": {
+      "callbacks": {}
+    },
+    "Flex181": {
+      "callbacks": {}
+    },
+    "Flex180": {
+      "callbacks": {}
+    },
+    "Flex176": {
+      "callbacks": {}
+    },
+    "Flex179": {
+      "callbacks": {}
+    },
+    "Flex187": {
+      "callbacks": {}
+    },
+    "Flex185": {
+      "callbacks": {}
+    },
+    "Flex184": {
+      "callbacks": {}
+    },
+    "Flex182": {
+      "callbacks": {}
+    },
+    "Flex183": {
+      "callbacks": {}
+    },
+    "Flex186": {
       "callbacks": {}
     },
     "Flex98": {
@@ -822,7 +849,16 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Flex91": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/project"
+            }
+          }
+        ]
+      }
     },
     "Flex92": {
       "callbacks": {}
@@ -856,120 +892,6 @@ const desktopModeProps = {
     "TextBox61": {
       "custom": {
         "text": "Search"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox57": {
-      "custom": {
-        "text": "Source: https://pepy.tech/project/atri"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "LineChart11": {
-      "custom": {
-        "data": [],
-        "xAxis": {
-          "show": true,
-          "key": "x"
-        },
-        "yAxis": {
-          "show": true
-        },
-        "toolTip": {
-          "show": true
-        },
-        "legend": {
-          "show": true
-        },
-        "chartHeight": 400,
-        "chartWidth": 400
-      },
-      "callbacks": {}
-    },
-    "Button17": {
-      "custom": {
-        "text": ""
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox55": {
-      "custom": {
-        "text": "⬇️  Downloads"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox58": {
-      "custom": {
-        "text": "Source: https://pepy.tech/project/atri"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "LineChart12": {
-      "custom": {
-        "data": [],
-        "xAxis": {
-          "show": true,
-          "key": "x"
-        },
-        "yAxis": {
-          "show": true
-        },
-        "toolTip": {
-          "show": true
-        },
-        "legend": {
-          "show": true
-        },
-        "chartHeight": 400,
-        "chartWidth": 400
-      },
-      "callbacks": {}
-    },
-    "TextBox56": {
-      "custom": {
-        "text": "⭐  Stars"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Button18": {
-      "custom": {
-        "text": ""
       },
       "callbacks": {
         "onClick": [
@@ -1159,78 +1081,9 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Button22": {
-      "custom": {
-        "text": ""
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox69": {
       "custom": {
-        "text": "⬇️  Downloads"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox72": {
-      "custom": {
-        "text": "Source: https://pepy.tech/project/atri"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "LineChart16": {
-      "custom": {
-        "data": [],
-        "xAxis": {
-          "show": true,
-          "key": "x"
-        },
-        "yAxis": {
-          "show": true
-        },
-        "toolTip": {
-          "show": true
-        },
-        "legend": {
-          "show": true
-        },
-        "chartHeight": 400,
-        "chartWidth": 400
-      },
-      "callbacks": {}
-    },
-    "TextBox70": {
-      "custom": {
-        "text": "⭐  Stars"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Button23": {
-      "custom": {
-        "text": ""
+        "text": "⬇️  Downloads history"
       },
       "callbacks": {
         "onClick": [
@@ -1277,6 +1130,287 @@ const desktopModeProps = {
         ]
       }
     },
+    "LineChart17": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "TextBox106": {
+      "custom": {
+        "text": "Source: https://github.com/Atri-Labs/atrilabs-engine/stargazers"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox107": {
+      "custom": {
+        "text": "Stars history"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image38": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/star.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "LineChart18": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "TextBox109": {
+      "custom": {
+        "text": "Source: https://pepy.tech/project/atri"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox108": {
+      "custom": {
+        "text": "Repo traffic"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox111": {
+      "custom": {
+        "text": "Source: https://pepy.tech/project/atri"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox110": {
+      "custom": {
+        "text": "Referring site"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "LineChart19": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "Dropdown1": {
+      "custom": {
+        "values": [
+          "GitHub",
+          "YouTube"
+        ],
+        "selectedValue": "YouTube"
+      },
+      "callbacks": {}
+    },
+    "TextBox114": {
+      "custom": {
+        "text": "Site"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox115": {
+      "custom": {
+        "text": "Metric"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Dropdown2": {
+      "custom": {
+        "values": [
+          "Total views",
+          "Unique views"
+        ],
+        "selectedValue": "Unique views"
+      },
+      "callbacks": {}
+    },
+    "TextBox119": {
+      "custom": {
+        "text": "Source: https://pepy.tech/project/atri"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "LineChart20": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "Dropdown3": {
+      "custom": {
+        "values": [
+          "Total views",
+          "Unique views"
+        ],
+        "selectedValue": "Unique views"
+      },
+      "callbacks": {}
+    },
+    "TextBox116": {
+      "custom": {
+        "text": "Metric"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox117": {
+      "custom": {
+        "text": "Site"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Dropdown4": {
+      "custom": {
+        "values": [
+          "GitHub",
+          "YouTube"
+        ],
+        "selectedValue": "YouTube"
+      },
+      "callbacks": {}
+    },
+    "TextBox118": {
+      "custom": {
+        "text": "Popular content"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
     "TextBox64": {
       "custom": {
         "text": "Traction"
@@ -1305,7 +1439,7 @@ const desktopModeProps = {
     "Image19": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/traffic_slate50.png"
+        "src": "/app-assets/github_navbar.png"
       },
       "callbacks": {
         "onClick": [
@@ -1317,7 +1451,7 @@ const desktopModeProps = {
     },
     "TextBox62": {
       "custom": {
-        "text": "Repo traffic"
+        "text": "Project"
       },
       "callbacks": {
         "onClick": [
@@ -1329,7 +1463,7 @@ const desktopModeProps = {
     },
     "TextBox63": {
       "custom": {
-        "text": "Repo traffic"
+        "text": "Community"
       },
       "callbacks": {
         "onClick": [
