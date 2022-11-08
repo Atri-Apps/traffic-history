@@ -14,6 +14,9 @@
     },
     "/event_log": {
       "name": "event_log"
+    },
+    "/community": {
+      "name": "community"
     }
   },
   "publicUrlAssetMap": {

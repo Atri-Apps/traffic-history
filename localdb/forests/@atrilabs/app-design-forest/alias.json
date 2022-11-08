@@ -1,11 +1,11 @@
 {
-  "Flex": 187,
-  "TextBox": 119,
-  "LineChart": 20,
+  "Flex": 293,
+  "TextBox": 178,
+  "LineChart": 32,
   "Table": 8,
-  "Image": 38,
-  "Button": 24,
+  "Image": 59,
+  "Button": 26,
   "BarChart": 10,
-  "Dropdown": 4,
+  "Dropdown": 8,
   "Checkbox": 1
 }

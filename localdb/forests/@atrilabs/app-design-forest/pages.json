@@ -14,5 +14,9 @@
   "d46ee920-c7f6-4198-8e4e-9ba8466481e3": {
     "name": "event_log",
     "route": "/event_log"
+  },
+  "4500b77c-8a6c-4d1d-b52d-5c159208e718": {
+    "name": "community",
+    "route": "/community"
   }
 }

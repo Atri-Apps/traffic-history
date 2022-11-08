@@ -24772,5 +24772,15 @@
       }
     },
     "id": "e57d4b4c-cec3-409c-b75d-61170c334626"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "slice": {
+      "parent": {
+        "id": "body",
+        "index": 1
+      }
+    },
+    "id": "39ee9d94-189c-45fb-ab98-605fdd5cef6b"
   }
 ]

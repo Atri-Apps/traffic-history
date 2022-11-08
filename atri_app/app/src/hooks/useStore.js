@@ -1488,21 +1488,73 @@ const desktopModeProps = {
     }
   },
   "event_log": {
-    "Flex140": {
+    "Flex292": {
       "callbacks": {}
     },
-    "Flex139": {
+    "Flex290": {
       "callbacks": {}
     },
-    "Flex141": {
+    "Flex286": {
+      "callbacks": {}
+    },
+    "Flex287": {
+      "callbacks": {}
+    },
+    "Flex283": {
       "callbacks": {}
     },
     "Flex142": {
       "callbacks": {}
     },
-    "TextBox88": {
+    "Flex291": {
+      "callbacks": {}
+    },
+    "Flex288": {
+      "callbacks": {}
+    },
+    "Flex289": {
+      "callbacks": {}
+    },
+    "Flex284": {
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/project"
+            }
+          }
+        ]
+      }
+    },
+    "Flex285": {
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/community"
+            }
+          }
+        ]
+      }
+    },
+    "Flex293": {
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/community"
+            }
+          }
+        ]
+      }
+    },
+    "Image57": {
       "custom": {
-        "text": "Event log"
+        "alt": "No preview available",
+        "src": "/app-assets/github_prig.png"
       },
       "callbacks": {
         "onClick": [
@@ -1516,7 +1568,8 @@ const desktopModeProps = {
       "custom": {
         "rows": [],
         "cols": [],
-        "selection": []
+        "selection": [],
+        "checkboxSelection": false
       },
       "callbacks": {}
     },
@@ -1535,6 +1588,748 @@ const desktopModeProps = {
     "TextBox91": {
       "custom": {
         "text": "Your text Here!"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox177": {
+      "custom": {
+        "text": "Traction"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image58": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Workspaces.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image55": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/github_navbar.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox175": {
+      "custom": {
+        "text": "Project"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox176": {
+      "custom": {
+        "text": "Community"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image56": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/traffic_slate50.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image59": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/traffic_slate50.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox178": {
+      "custom": {
+        "text": "Event log"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    }
+  },
+  "community": {
+    "Flex241": {
+      "callbacks": {}
+    },
+    "Flex239": {
+      "callbacks": {}
+    },
+    "Flex235": {
+      "callbacks": {}
+    },
+    "Flex231": {
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/community"
+            }
+          }
+        ]
+      }
+    },
+    "Flex232": {
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/project"
+            }
+          }
+        ]
+      }
+    },
+    "Flex236": {
+      "callbacks": {}
+    },
+    "Flex240": {
+      "callbacks": {}
+    },
+    "Flex237": {
+      "callbacks": {}
+    },
+    "Flex233": {
+      "callbacks": {}
+    },
+    "Flex226": {
+      "callbacks": {}
+    },
+    "Flex217": {
+      "callbacks": {}
+    },
+    "Flex227": {
+      "callbacks": {}
+    },
+    "Flex218": {
+      "callbacks": {}
+    },
+    "Flex209": {
+      "callbacks": {}
+    },
+    "Flex228": {
+      "callbacks": {}
+    },
+    "Flex219": {
+      "callbacks": {}
+    },
+    "Flex229": {
+      "callbacks": {}
+    },
+    "Flex220": {
+      "callbacks": {}
+    },
+    "Flex230": {
+      "callbacks": {}
+    },
+    "Flex221": {
+      "callbacks": {}
+    },
+    "Flex210": {
+      "callbacks": {}
+    },
+    "Flex201": {
+      "callbacks": {}
+    },
+    "Flex202": {
+      "callbacks": {}
+    },
+    "Flex194": {
+      "callbacks": {}
+    },
+    "Flex191": {
+      "callbacks": {}
+    },
+    "Flex188": {
+      "callbacks": {}
+    },
+    "Flex222": {
+      "callbacks": {}
+    },
+    "Flex211": {
+      "callbacks": {}
+    },
+    "Flex203": {
+      "callbacks": {}
+    },
+    "Flex195": {
+      "callbacks": {}
+    },
+    "Flex192": {
+      "callbacks": {}
+    },
+    "Flex189": {
+      "callbacks": {}
+    },
+    "Flex204": {
+      "callbacks": {}
+    },
+    "Flex223": {
+      "callbacks": {}
+    },
+    "Flex212": {
+      "callbacks": {}
+    },
+    "Flex205": {
+      "callbacks": {}
+    },
+    "Flex206": {
+      "callbacks": {}
+    },
+    "Flex196": {
+      "callbacks": {}
+    },
+    "Flex193": {
+      "callbacks": {}
+    },
+    "Flex190": {
+      "callbacks": {}
+    },
+    "Flex248": {
+      "callbacks": {}
+    },
+    "Flex247": {
+      "callbacks": {}
+    },
+    "Flex238": {
+      "callbacks": {}
+    },
+    "Flex234": {
+      "callbacks": {}
+    },
+    "Image44": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/traffic_slate50.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox145": {
+      "custom": {
+        "text": "Community"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox146": {
+      "custom": {
+        "text": "Project"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image45": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/github_navbar.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image47": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Workspaces.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox148": {
+      "custom": {
+        "text": "Traction"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox142": {
+      "custom": {
+        "text": "Source: https://pepy.tech/project/atri"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "LineChart23": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "TextBox135": {
+      "custom": {
+        "text": "YouTube watch duration (hrs)"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox143": {
+      "custom": {
+        "text": "Source: https://github.com/Atri-Labs/atrilabs-engine/stargazers"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "LineChart24": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "TextBox136": {
+      "custom": {
+        "text": "YouTube views"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image42": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/star.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image43": {
+      "custom": {
+        "alt": "dropdown",
+        "src": "/app-assets/dropdown.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox137": {
+      "custom": {
+        "text": "Lifetime"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox138": {
+      "custom": {
+        "text": "Aug 31 - Oct 31 2022"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "LineChart25": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "TextBox144": {
+      "custom": {
+        "text": "Source: https://pepy.tech/project/atri"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox139": {
+      "custom": {
+        "text": "YouTube subscribers"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image39": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/traffic_icon.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox126": {
+      "custom": {
+        "text": "SLACK MEMBERS"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox123": {
+      "custom": {
+        "text": "250"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox120": {
+      "custom": {
+        "text": "+ 10%"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox127": {
+      "custom": {
+        "text": "YT VIEWS"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox124": {
+      "custom": {
+        "text": "5.2K"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox121": {
+      "custom": {
+        "text": "+ 10%"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image40": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/star.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image41": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/downloads_icon.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox128": {
+      "custom": {
+        "text": "YT SUBSCRIBERS"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox125": {
+      "custom": {
+        "text": "70"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox122": {
+      "custom": {
+        "text": "+ 10%"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "LineChart28": {
+      "custom": {
+        "data": [],
+        "xAxis": {
+          "show": true,
+          "key": "x"
+        },
+        "yAxis": {
+          "show": true
+        },
+        "toolTip": {
+          "show": true
+        },
+        "legend": {
+          "show": true
+        },
+        "chartHeight": 400,
+        "chartWidth": 400
+      },
+      "callbacks": {}
+    },
+    "TextBox154": {
+      "custom": {
+        "text": "Source: https://pepy.tech/project/atri"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox153": {
+      "custom": {
+        "text": "Slack community members"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image48": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/github_prig.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox147": {
+      "custom": {
+        "text": "Search"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image46": {
+      "custom": {
+        "alt": "search",
+        "src": "/app-assets/search_icon.png"
       },
       "callbacks": {
         "onClick": [
