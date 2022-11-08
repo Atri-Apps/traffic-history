@@ -14,7 +14,52 @@ def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
     This function is called whenever a user loads this route in the browser.
     """
-    pass
+    at.LineChart15.custom.data = [
+    {
+        "x": "Oct 21",
+        "downloads": 200,
+    },
+    {
+        "x": "Oct 22",
+        "downloads": 300,
+    },
+    {
+        "x": "Oct 23",
+        "downloads": 150,
+    },
+    {
+        "x": "Oct 24",
+        "downloads": 250,
+    },
+    {
+        "x": "Oct 25",
+        "downloads": 200,
+    },
+    {
+        "x": "Oct 26",
+        "downloads": 400,
+    },
+    {
+        "x": "Oct 27",
+        "downloads": 200,
+    },
+    {
+        "x": "Oct 28",
+        "downloads": 300,
+    },
+    {
+        "x": "Oct 29",
+        "downloads": 200,
+    },
+    {
+        "x": "Oct 30",
+        "downloads": 250,
+    },
+    {
+        "x": "Oct 31",
+        "downloads": 400,
+    },
+    ]
 
 def handle_event(at: Atri, req: Request, res: Response):
     """
