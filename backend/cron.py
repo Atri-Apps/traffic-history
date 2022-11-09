@@ -1,8 +1,8 @@
 #! /usr/bin/env python3
 
 import os
-from integrations.github.api import stars, data
-from db_adapters.db_map import db_map
+from .integrations.github.api import stars, data
+from .db_adapters.db_map import db_map
 from datetime import date
 
 headers = {
