@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-from DbClass import DbClass
+from ..DbClass import DbClass
 import os
 
 
