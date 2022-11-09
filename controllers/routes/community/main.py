@@ -8,21 +8,7 @@ def init_state(at: Atri):
     The argument "at" is a dictionary that has initial values set from visual editor.
     Changing values in this dictionary will modify the intial state of the app.
     """
-
-    at.Table8.custom.cols = [
-    { "field": "id", "headerName": "ID" },
-    { "field": "date", "headerName": "Date" },
-    { "field": "activity", "headerName": "Activity" , "width": 300},
-    { "field": "reach", "headerName": "Reach", "type": "number" },
-    { "field": "comments", "headerName": "Comments" , "width": 300},
-    ]
-
-    # add rows
-    at.Table8.custom.rows = [
-    { "id": 1, "date": "Oct 1", "activity": "Conference talk at ConfName", "reach": 100, "comments": "Smaller conferences can sometimes lead to better traction"},
-    { "id": 2, "date": "Oct 15", "activity": "Conference talk at ConfName2", "reach": 200 },
-    { "id": 3, "date": "Oct 31", "activity": "Conference talk at ConfName3", "reach": 300 },
-    ]
+    pass
 
 def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """

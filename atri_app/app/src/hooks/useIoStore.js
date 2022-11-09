@@ -4,8 +4,9 @@ const useIoStore = create((set) => {
   return {
   "Home": {},
   "new": {},
-  "traction": {},
-  "event_log": {}
+  "project": {},
+  "event_log": {},
+  "community": {}
 }});
 
 export default useIoStore;
