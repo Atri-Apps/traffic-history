@@ -785,9 +785,6 @@ const desktopModeProps = {
     "Flex158": {
       "callbacks": {}
     },
-    "Flex157": {
-      "callbacks": {}
-    },
     "Flex169": {
       "callbacks": {}
     },
@@ -839,6 +836,72 @@ const desktopModeProps = {
     "Flex186": {
       "callbacks": {}
     },
+    "Flex319": {
+      "callbacks": {}
+    },
+    "Flex316": {
+      "callbacks": {}
+    },
+    "Flex313": {
+      "callbacks": {}
+    },
+    "Flex307": {
+      "callbacks": {}
+    },
+    "Flex308": {
+      "callbacks": {}
+    },
+    "Flex304": {
+      "callbacks": {}
+    },
+    "Flex301": {
+      "callbacks": {}
+    },
+    "Flex298": {
+      "callbacks": {}
+    },
+    "Flex317": {
+      "callbacks": {}
+    },
+    "Flex314": {
+      "callbacks": {}
+    },
+    "Flex309": {
+      "callbacks": {}
+    },
+    "Flex305": {
+      "callbacks": {}
+    },
+    "Flex302": {
+      "callbacks": {}
+    },
+    "Flex299": {
+      "callbacks": {}
+    },
+    "Flex310": {
+      "callbacks": {}
+    },
+    "Flex318": {
+      "callbacks": {}
+    },
+    "Flex315": {
+      "callbacks": {}
+    },
+    "Flex311": {
+      "callbacks": {}
+    },
+    "Flex312": {
+      "callbacks": {}
+    },
+    "Flex306": {
+      "callbacks": {}
+    },
+    "Flex303": {
+      "callbacks": {}
+    },
+    "Flex300": {
+      "callbacks": {}
+    },
     "Flex98": {
       "callbacks": {}
     },
@@ -862,6 +925,18 @@ const desktopModeProps = {
     },
     "Flex92": {
       "callbacks": {}
+    },
+    "Flex296": {
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/community"
+            }
+          }
+        ]
+      }
     },
     "Image21": {
       "custom": {
@@ -1093,34 +1168,21 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image34": {
+    "Dropdown9": {
       "custom": {
-        "alt": "dropdown",
-        "src": "/app-assets/dropdown.png"
+        "values": [
+          "Last 7 days",
+          "Last 28 days",
+          "Last 365 days",
+          "Lifetime"
+        ],
+        "selectedValue": "Lifetime"
       },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
+      "callbacks": {}
     },
-    "TextBox98": {
+    "TextBox180": {
       "custom": {
         "text": "Aug 31 - Oct 31 2022"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox99": {
-      "custom": {
-        "text": "Lifetime"
       },
       "callbacks": {
         "onClick": [
@@ -1147,7 +1209,7 @@ const desktopModeProps = {
           "show": true
         },
         "chartHeight": 400,
-        "chartWidth": 400
+        "chartWidth": 1000
       },
       "callbacks": {}
     },
@@ -1379,7 +1441,7 @@ const desktopModeProps = {
     },
     "TextBox117": {
       "custom": {
-        "text": "Site"
+        "text": "Content"
       },
       "callbacks": {
         "onClick": [
@@ -1392,16 +1454,162 @@ const desktopModeProps = {
     "Dropdown4": {
       "custom": {
         "values": [
-          "GitHub",
-          "YouTube"
+          "Contributing.md",
+          "Discussions"
         ],
-        "selectedValue": "YouTube"
+        "selectedValue": "Contributing.md"
       },
       "callbacks": {}
     },
     "TextBox118": {
       "custom": {
         "text": "Popular content"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image63": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/traffic_icon.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox191": {
+      "custom": {
+        "text": "TRAFFIC"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox188": {
+      "custom": {
+        "text": "20K"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox185": {
+      "custom": {
+        "text": "+ 10%"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox192": {
+      "custom": {
+        "text": "STARS"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox189": {
+      "custom": {
+        "text": "392"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox186": {
+      "custom": {
+        "text": "+ 10%"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox194": {
+      "custom": {
+        "text": "⭐"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image65": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/downloads_icon.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox193": {
+      "custom": {
+        "text": "DOWNLOADS"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox190": {
+      "custom": {
+        "text": "12.9K"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox187": {
+      "custom": {
+        "text": "+ 10%"
       },
       "callbacks": {
         "onClick": [
@@ -1474,6 +1682,31 @@ const desktopModeProps = {
       }
     },
     "Image20": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/traffic_slate50.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox183": {
+      "custom": {
+        "text": "Event log"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image61": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/traffic_slate50.png"
@@ -1566,10 +1799,56 @@ const desktopModeProps = {
     },
     "Table8": {
       "custom": {
-        "rows": [],
-        "cols": [],
+        "rows": [
+          {
+            "id": 1,
+            "date": "Oct 1",
+            "activity": "Conference talk at ConfName",
+            "reach": 100,
+            "comments": "Smaller conferences can sometimes lead to better traction"
+          },
+          {
+            "id": 2,
+            "date": "Oct 15",
+            "activity": "Conference talk at ConfName2",
+            "reach": 200
+          },
+          {
+            "id": 3,
+            "date": "Oct 31",
+            "activity": "Conference talk at ConfName3",
+            "reach": 300
+          }
+        ],
+        "cols": [
+          {
+            "field": "id",
+            "headerName": "ID"
+          },
+          {
+            "field": "date",
+            "headerName": "Date"
+          },
+          {
+            "field": "activity",
+            "headerName": "Activity",
+            "width": 300
+          },
+          {
+            "field": "reach",
+            "headerName": "Reach",
+            "type": "number"
+          },
+          {
+            "field": "comments",
+            "headerName": "Comments",
+            "width": 300
+          }
+        ],
         "selection": [],
-        "checkboxSelection": false
+        "checkboxSelection": false,
+        "autoHeight": true,
+        "rowHeight": 40
       },
       "callbacks": {}
     },
@@ -1732,6 +2011,18 @@ const desktopModeProps = {
         ]
       }
     },
+    "Flex297": {
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/community"
+            }
+          }
+        ]
+      }
+    },
     "Flex236": {
       "callbacks": {}
     },
@@ -1757,12 +2048,6 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Flex209": {
-      "callbacks": {}
-    },
-    "Flex228": {
-      "callbacks": {}
-    },
-    "Flex219": {
       "callbacks": {}
     },
     "Flex229": {
@@ -1843,6 +2128,9 @@ const desktopModeProps = {
     "Flex247": {
       "callbacks": {}
     },
+    "Flex294": {
+      "callbacks": {}
+    },
     "Flex238": {
       "callbacks": {}
     },
@@ -1890,6 +2178,31 @@ const desktopModeProps = {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/github_navbar.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox184": {
+      "custom": {
+        "text": "Event log"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image62": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/traffic_slate50.png"
       },
       "callbacks": {
         "onClick": [
@@ -2018,43 +2331,6 @@ const desktopModeProps = {
       "custom": {
         "alt": "downloads",
         "src": "/app-assets/star.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image43": {
-      "custom": {
-        "alt": "dropdown",
-        "src": "/app-assets/dropdown.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox137": {
-      "custom": {
-        "text": "Lifetime"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox138": {
-      "custom": {
-        "text": "Aug 31 - Oct 31 2022"
       },
       "callbacks": {
         "onClick": [
@@ -2300,6 +2576,30 @@ const desktopModeProps = {
           }
         ]
       }
+    },
+    "TextBox181": {
+      "custom": {
+        "text": "Aug 31 - Oct 31 2022"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Dropdown10": {
+      "custom": {
+        "values": [
+          "Last 7 days",
+          "Last 28 days",
+          "Last 365 days",
+          "Lifetime"
+        ],
+        "selectedValue": "Lifetime"
+      },
+      "callbacks": {}
     },
     "Image48": {
       "custom": {
