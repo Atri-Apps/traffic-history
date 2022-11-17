@@ -43,5 +43,20 @@
   },
   "dropdown.png": {
     "mime": "image/png"
+  },
+  "resized_star.png": {
+    "mime": "image/png"
+  },
+  "resized_downloads.png": {
+    "mime": "image/png"
+  },
+  "resized_traffic.png": {
+    "mime": "image/png"
+  },
+  "globe.png": {
+    "mime": "image/png"
+  },
+  "popular_content.png": {
+    "mime": "image/png"
   }
 }
