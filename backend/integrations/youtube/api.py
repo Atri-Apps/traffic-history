@@ -5,7 +5,7 @@ import google_auth_oauthlib.flow
 import googleapiclient.discovery
 import googleapiclient.errors
 def get_channel_statistics():
-    key = 'AIzaSyDYSCXp9N23Bov-bg1LMzZ_0PWXHaGCj2o'
+    key = os.environ.get('YOUTUBE_KEY')
     channel = 'UC1uR2Q5x_8olWS_Y4PdK1Bw'
     data = urllib.request.urlopen(f"https://youtubeanalytics.googleapis.com/v2/reports?dimensions=day%2CinsightTrafficSourceType&endDate=2014-06-30&ids={channel}%3D%3DMINE&metrics=views%2CestimatedMinutesWatched&sort=day%2C-views&startDate=2014-05-01&key={key}").read()
 
