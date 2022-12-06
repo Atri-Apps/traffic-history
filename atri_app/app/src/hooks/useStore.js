@@ -698,12 +698,6 @@ const desktopModeProps = {
     "Flex97": {
       "callbacks": {}
     },
-    "Flex93": {
-      "callbacks": {}
-    },
-    "Flex89": {
-      "callbacks": {}
-    },
     "Flex94": {
       "callbacks": {}
     },
@@ -779,7 +773,10 @@ const desktopModeProps = {
     "Flex107": {
       "callbacks": {}
     },
-    "Flex105": {
+    "Flex325": {
+      "callbacks": {}
+    },
+    "Flex326": {
       "callbacks": {}
     },
     "Flex158": {
@@ -791,19 +788,19 @@ const desktopModeProps = {
     "Flex170": {
       "callbacks": {}
     },
-    "Flex171": {
+    "Flex322": {
       "callbacks": {}
     },
     "Flex173": {
       "callbacks": {}
     },
-    "Flex172": {
+    "Flex328": {
+      "callbacks": {}
+    },
+    "Flex329": {
       "callbacks": {}
     },
     "Flex175": {
-      "callbacks": {}
-    },
-    "Flex174": {
       "callbacks": {}
     },
     "Flex181": {
@@ -816,6 +813,12 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Flex179": {
+      "callbacks": {}
+    },
+    "Flex331": {
+      "callbacks": {}
+    },
+    "Flex330": {
       "callbacks": {}
     },
     "Flex187": {
@@ -833,73 +836,16 @@ const desktopModeProps = {
     "Flex183": {
       "callbacks": {}
     },
-    "Flex186": {
+    "Flex333": {
       "callbacks": {}
     },
-    "Flex319": {
+    "Flex332": {
       "callbacks": {}
     },
-    "Flex316": {
+    "Flex321": {
       "callbacks": {}
     },
-    "Flex313": {
-      "callbacks": {}
-    },
-    "Flex307": {
-      "callbacks": {}
-    },
-    "Flex308": {
-      "callbacks": {}
-    },
-    "Flex304": {
-      "callbacks": {}
-    },
-    "Flex301": {
-      "callbacks": {}
-    },
-    "Flex298": {
-      "callbacks": {}
-    },
-    "Flex317": {
-      "callbacks": {}
-    },
-    "Flex314": {
-      "callbacks": {}
-    },
-    "Flex309": {
-      "callbacks": {}
-    },
-    "Flex305": {
-      "callbacks": {}
-    },
-    "Flex302": {
-      "callbacks": {}
-    },
-    "Flex299": {
-      "callbacks": {}
-    },
-    "Flex310": {
-      "callbacks": {}
-    },
-    "Flex318": {
-      "callbacks": {}
-    },
-    "Flex315": {
-      "callbacks": {}
-    },
-    "Flex311": {
-      "callbacks": {}
-    },
-    "Flex312": {
-      "callbacks": {}
-    },
-    "Flex306": {
-      "callbacks": {}
-    },
-    "Flex303": {
-      "callbacks": {}
-    },
-    "Flex300": {
+    "Flex93": {
       "callbacks": {}
     },
     "Flex98": {
@@ -934,44 +880,6 @@ const desktopModeProps = {
               "type": "internal",
               "url": "/community"
             }
-          }
-        ]
-      }
-    },
-    "Image21": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/github_prig.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image18": {
-      "custom": {
-        "alt": "search",
-        "src": "/app-assets/search_icon.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox61": {
-      "custom": {
-        "text": "Search"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
           }
         ]
       }
@@ -1015,7 +923,7 @@ const desktopModeProps = {
     "Image25": {
       "custom": {
         "alt": "downloads",
-        "src": "/app-assets/downloads_icon.png"
+        "src": "/app-assets/resized_downloads.png"
       },
       "callbacks": {
         "onClick": [
@@ -1028,7 +936,7 @@ const desktopModeProps = {
     "Image32": {
       "custom": {
         "alt": "downloads",
-        "src": "/app-assets/star.png"
+        "src": "/app-assets/resized_star.png"
       },
       "callbacks": {
         "onClick": [
@@ -1113,7 +1021,7 @@ const desktopModeProps = {
     "Image33": {
       "custom": {
         "alt": "downloads",
-        "src": "/app-assets/traffic_icon.png"
+        "src": "/app-assets/resized_traffic.png"
       },
       "callbacks": {
         "onClick": [
@@ -1152,13 +1060,26 @@ const desktopModeProps = {
           "show": true
         },
         "chartHeight": 400,
-        "chartWidth": 400
+        "chartWidth": 900
       },
       "callbacks": {}
     },
-    "TextBox69": {
+    "TextBox199": {
       "custom": {
-        "text": "⬇️  Downloads history"
+        "text": "Downloads history"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image71": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/downloads_icon.png"
       },
       "callbacks": {
         "onClick": [
@@ -1173,16 +1094,23 @@ const desktopModeProps = {
         "values": [
           "Last 7 days",
           "Last 28 days",
+          "Last 90 days",
           "Last 365 days",
           "Lifetime"
         ],
         "selectedValue": "Lifetime"
       },
-      "callbacks": {}
+      "callbacks": {
+        "onChange": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     },
     "TextBox180": {
       "custom": {
-        "text": "Aug 31 - Oct 31 2022"
+        "text": "Aug 31 2021 - Oct 31 2022"
       },
       "callbacks": {
         "onClick": [
@@ -1209,7 +1137,7 @@ const desktopModeProps = {
           "show": true
         },
         "chartHeight": 400,
-        "chartWidth": 1000
+        "chartWidth": 900
       },
       "callbacks": {}
     },
@@ -1237,7 +1165,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image38": {
+    "Image68": {
       "custom": {
         "alt": "downloads",
         "src": "/app-assets/star.png"
@@ -1267,13 +1195,13 @@ const desktopModeProps = {
           "show": true
         },
         "chartHeight": 400,
-        "chartWidth": 400
+        "chartWidth": 900
       },
       "callbacks": {}
     },
     "TextBox109": {
       "custom": {
-        "text": "Source: https://pepy.tech/project/atri"
+        "text": "Source: https://github.com/Atri-Labs/atrilabs-engine/graphs/traffic"
       },
       "callbacks": {
         "onClick": [
@@ -1283,9 +1211,22 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox108": {
+    "TextBox200": {
       "custom": {
-        "text": "Repo traffic"
+        "text": "Repo traffic history"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image73": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/traffic_icon.png"
       },
       "callbacks": {
         "onClick": [
@@ -1297,19 +1238,7 @@ const desktopModeProps = {
     },
     "TextBox111": {
       "custom": {
-        "text": "Source: https://pepy.tech/project/atri"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox110": {
-      "custom": {
-        "text": "Referring site"
+        "text": "Source: https://github.com/Atri-Labs/atrilabs-engine/graphs/traffic"
       },
       "callbacks": {
         "onClick": [
@@ -1336,7 +1265,7 @@ const desktopModeProps = {
           "show": true
         },
         "chartHeight": 400,
-        "chartWidth": 400
+        "chartWidth": 700
       },
       "callbacks": {}
     },
@@ -1348,7 +1277,13 @@ const desktopModeProps = {
         ],
         "selectedValue": "YouTube"
       },
-      "callbacks": {}
+      "callbacks": {
+        "onChange": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     },
     "TextBox114": {
       "custom": {
@@ -1384,9 +1319,34 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
+    "TextBox201": {
+      "custom": {
+        "text": "Referring site history"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image74": {
+      "custom": {
+        "alt": "downloads",
+        "src": "/app-assets/globe.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
     "TextBox119": {
       "custom": {
-        "text": "Source: https://pepy.tech/project/atri"
+        "text": "Source: https://github.com/Atri-Labs/atrilabs-engine/graphs/traffic"
       },
       "callbacks": {
         "onClick": [
@@ -1413,7 +1373,7 @@ const desktopModeProps = {
           "show": true
         },
         "chartHeight": 400,
-        "chartWidth": 400
+        "chartWidth": 650
       },
       "callbacks": {}
     },
@@ -1459,11 +1419,17 @@ const desktopModeProps = {
         ],
         "selectedValue": "Contributing.md"
       },
-      "callbacks": {}
+      "callbacks": {
+        "onChange": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     },
-    "TextBox118": {
+    "TextBox202": {
       "custom": {
-        "text": "Popular content"
+        "text": "Popular content history"
       },
       "callbacks": {
         "onClick": [
@@ -1473,10 +1439,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image63": {
+    "Image75": {
       "custom": {
         "alt": "downloads",
-        "src": "/app-assets/traffic_icon.png"
+        "src": "/app-assets/popular_content.png"
       },
       "callbacks": {
         "onClick": [
@@ -1486,9 +1452,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox191": {
+    "Image67": {
       "custom": {
-        "text": "TRAFFIC"
+        "alt": "No preview available",
+        "src": "/app-assets/github_prig.png"
       },
       "callbacks": {
         "onClick": [
@@ -1498,9 +1465,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox188": {
+    "TextBox198": {
       "custom": {
-        "text": "20K"
+        "text": "Percentages are calculated for week-on-week change."
       },
       "callbacks": {
         "onClick": [
@@ -1510,9 +1477,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox185": {
+    "TextBox196": {
       "custom": {
-        "text": "+ 10%"
+        "text": "Open-source project statistics"
       },
       "callbacks": {
         "onClick": [
@@ -1522,94 +1489,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox192": {
+    "TextBox197": {
       "custom": {
-        "text": "STARS"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox189": {
-      "custom": {
-        "text": "392"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox186": {
-      "custom": {
-        "text": "+ 10%"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox194": {
-      "custom": {
-        "text": "⭐"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image65": {
-      "custom": {
-        "alt": "downloads",
-        "src": "/app-assets/downloads_icon.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox193": {
-      "custom": {
-        "text": "DOWNLOADS"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox190": {
-      "custom": {
-        "text": "12.9K"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox187": {
-      "custom": {
-        "text": "+ 10%"
+        "text": "https://github.com/Atri-Labs/atrilabs-engine"
       },
       "callbacks": {
         "onClick": [
@@ -2412,7 +2294,7 @@ const desktopModeProps = {
     },
     "TextBox123": {
       "custom": {
-        "text": "250"
+        "text": 272
       },
       "callbacks": {
         "onClick": [
@@ -2448,7 +2330,7 @@ const desktopModeProps = {
     },
     "TextBox124": {
       "custom": {
-        "text": "5.2K"
+        "text": "5.549K"
       },
       "callbacks": {
         "onClick": [
@@ -2510,7 +2392,7 @@ const desktopModeProps = {
     },
     "TextBox125": {
       "custom": {
-        "text": "70"
+        "text": "88"
       },
       "callbacks": {
         "onClick": [

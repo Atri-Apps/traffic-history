@@ -6,6 +6,7 @@ import os
 class MongoDb(DbClass):
     def __init__(self):
         self.client = self.get_client()
+
     def get_client(self):
         db_url = os.environ.get("DB_URI")
         client = MongoClient(db_url)
@@ -24,14 +25,14 @@ class MongoDb(DbClass):
         db['content'].insert_one(dic)
 
     def push_data(self, visitors, clones, sites, content):
-        db = self.client
+        db = self.get_client()
         self.push_visitors(visitors, db)
         self.push_clones(clones, db)
         self.push_sites(sites, db)
         self.push_content(content, db)
 
     def get_data(self, collection_name):
-        db = self.client
+        db = self.get_client()
         arr = []
         if collection_name == 'visitors':
             collection = db[collection_name]
@@ -62,10 +63,10 @@ class MongoDb(DbClass):
                     'sites': val['sites']
                 }
                 arr.append(dummy)
-                break
-            for i in range(len(arr[0]['sites'])):
-                arr[0]['sites'][i]['id'] = i + 1
-            return arr[0]['sites']
+            for j in range(len(arr)):
+                for i in range(len(arr[j]['sites'])):
+                    arr[j]['sites'][i]['id'] = i + 1
+            return arr
         elif collection_name == 'content':
             collection = db[collection_name]
             values = collection.find()
@@ -75,8 +76,8 @@ class MongoDb(DbClass):
                     'popular content': val['popular_content']
                 }
                 arr.append(dummy)
-                break
-            for i in range(len(arr[0]['popular content'])):
-                arr[0]['popular content'][i]['id'] = i + 1
-            return arr[0]['popular content']
+            for j in range(len(arr)):
+                for i in range(len(arr[j]['popular content'])):
+                    arr[j]['popular content'][i]['id'] = i + 1
+            return arr
         return arr

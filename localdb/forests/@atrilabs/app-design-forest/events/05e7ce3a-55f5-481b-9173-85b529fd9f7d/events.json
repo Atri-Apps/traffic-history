@@ -37246,5 +37246,50 @@
       }
     },
     "id": "83b9b90d-cb64-4c04-98ef-2c6c727e367f"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onChange": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    },
+    "id": "7dc20a4a-71b1-424e-80c5-c9175c10177b"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onChange": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    },
+    "id": "a93bc166-d3c4-4e25-bd35-adf0c7f2dbc0"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onChange": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    },
+    "id": "c1a85fa1-ab18-46ca-844d-e890ecab5d09"
   }
 ]

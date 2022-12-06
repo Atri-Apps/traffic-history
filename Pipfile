@@ -13,6 +13,7 @@ atri-utils = "*"
 pymongo = "*"
 slack-sdk = "*"
 google-api-python-client = "*"
+google-auth-oauthlib = "*"
 
 [dev-packages]
 

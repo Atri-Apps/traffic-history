@@ -1,5 +1,5 @@
 import requests
-
+import time
 
 def data(headers, path):
     getvalue = requests.get(f'https://api.github.com/repos/Atri-Labs/atrilabs-engine/traffic/{path}',
@@ -7,6 +7,7 @@ def data(headers, path):
     while getvalue.status_code != 200:
         getvalue = requests.get(f'https://api.github.com/repos/Atri-Labs/atrilabs-engine/traffic/{path}',
                                 headers=headers)
+        print('Loop')
     return getvalue
 
 
@@ -14,12 +15,15 @@ def stars(headers):
     page_number = 1
     completed_flag = False
     stargazers = []
-    while completed_flag is False:
+
+    while not completed_flag:
         getvalue = requests.get(f'https://api.github.com/repos/Atri-Labs/atrilabs-engine/stargazers?per_page=100&page={page_number}',
                             headers=headers)
+        print('Loop1')
         while getvalue.status_code != 200:
             getvalue = requests.get('https://api.github.com/repos/Atri-Labs/atrilabs-engine/stargazers',
                                 headers=headers)
+            print('Loop2')
         if not getvalue.json():
             completed_flag = True
             continue
